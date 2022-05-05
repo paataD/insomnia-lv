@@ -1,0 +1,32 @@
+_id: req_3047e67cca9d41a9a76f7ec2d26cd814
+type: Request
+parentId: fld_1eafe1f40bc245b1b8072160b71e0048
+modified: 1651406872933
+created: 1650357287320
+url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/logout
+name: Logout
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_2b93a9f3b5b5435d96b8c1bdf98c4db3
+  - id: pair_968363c45584489191d5687c66b2c97f
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: 4|qjHhKHsi19RkclID5Ts1WVt6sVSZ7qpYClG22fKo
+metaSortKey: -1651405692649
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

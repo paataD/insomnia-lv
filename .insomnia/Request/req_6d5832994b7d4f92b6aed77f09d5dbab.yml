@@ -1,0 +1,29 @@
+_id: req_6d5832994b7d4f92b6aed77f09d5dbab
+type: Request
+parentId: fld_d759c038d2204a04b56826f997c72e1f
+modified: 1651675516283
+created: 1651675034188
+url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
+  '', 0 %}/3
+name: reports
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_48ae39170aa84a30b9bff60a182e4d2a
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1651667403742.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_e1cb21e9e6ba4207b2a3640b2e636183
+type: Request
+parentId: fld_26abacbbb89b4b9abe69cefb396e0225
+modified: 1651665770348
+created: 1651665770348
+url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
+  '', 0 %}
+name: subject-types
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_9f69914a222e4526b5a6ada95d102939
+    name: XDEBUG_SESSION_START
+    value: PHPSTORM
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2b93a9f3b5b5435d96b8c1bdf98c4db3
+  - id: pair_968363c45584489191d5687c66b2c97f
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1651405985421
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_770af48991ef43a9afd9c64b439d9e0c
+type: Request
+parentId: fld_d759c038d2204a04b56826f997c72e1f
+modified: 1651675645279
+created: 1651674582092
+url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
+  '', 0 %}/3
+name: reports
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "report_type_id": "2",
+    	"entities": "2",
+      "regular": true,
+      "schedule": "{\"a\":1}",
+      "current_state": 1,
+    	"last_touch": "04-08-2022",
+      "filters": "{\"a\":333333}",
+    	"description":"22",
+      "not_formal_report_settings": "{\"a\":1}",
+      "not_formal": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_48ae39170aa84a30b9bff60a182e4d2a
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1651669155856.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

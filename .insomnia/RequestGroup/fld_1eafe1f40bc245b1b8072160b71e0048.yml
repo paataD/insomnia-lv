@@ -1,0 +1,19 @@
+_id: fld_1eafe1f40bc245b1b8072160b71e0048
+type: RequestGroup
+parentId: wrk_3f85c290c544457d91d3a6d6e14be11a
+modified: 1651675347581
+created: 1651405040506
+name: 1.127 LV
+description: ""
+environment:
+  base_url: 192.168.1.127
+  prefix: spa/v1
+  port: "81"
+  bearer: 7|bYBoG7fHqAwaXwhTLTESl8tbml7FWnkkgajQfTXH
+environmentPropertyOrder:
+  "&":
+    - base_url
+    - prefix
+    - port
+    - bearer
+metaSortKey: -1651405040506

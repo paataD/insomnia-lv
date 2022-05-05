@@ -1,0 +1,38 @@
+_id: req_f8628fd2139f46bab071fc88f0db0bc7
+type: Request
+parentId: fld_1eafe1f40bc245b1b8072160b71e0048
+modified: 1651405934120
+created: 1651405195405
+url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/login
+name: LOGIN
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_33fca81ba7ff42dc81d80addc148d6d4
+      name: password
+      value: admin
+      description: ""
+    - id: pair_4eb24fef1cae4617b9f5170653b5b9ac
+      name: username
+      value: admin
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_a1d2bbe494424862a77cfa1933f2833a
+  - id: pair_0a8cc208860141d0ac770bd3bdd7e622
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1651405692674
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
