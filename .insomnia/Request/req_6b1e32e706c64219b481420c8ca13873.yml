@@ -1,8 +1,8 @@
-_id: req_f7252d1b29b24a448b7be1dd5baeda7b
+_id: req_6b1e32e706c64219b481420c8ca13873
 type: Request
-parentId: fld_0b4084373eee49c298eb5bf42353416b
-modified: 1652860469675
-created: 1651665770334
+parentId: fld_26abacbbb89b4b9abe69cefb396e0225
+modified: 1652860527652
+created: 1651746569360
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
   '', 0 %}
 name: service-types
@@ -26,6 +26,7 @@ body:
     						"metric_type_id": 7,
     						"name": "234234",
     						"criteria_type_id": 136,
+    						"id": 121,
     						"metric_templates_id": [
     							1
     						],
@@ -61,7 +62,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1650666018604.5938
+metaSortKey: -1651405985471
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

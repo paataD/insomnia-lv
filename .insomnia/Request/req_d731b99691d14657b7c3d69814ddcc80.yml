@@ -1,26 +1,16 @@
-_id: req_ab84a8922cf34a0a86ab3c5cad87a10e
+_id: req_d731b99691d14657b7c3d69814ddcc80
 type: Request
-parentId: fld_d759c038d2204a04b56826f997c72e1f
-modified: 1652861061630
-created: 1651672660085
+parentId: fld_b3f565abdfcc4fbb86c3b7a959000f06
+modified: 1651844135288
+created: 1651844056713
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
-  '', 0 %}
-name: reports
+  '', 0 %}/1
+name: pings
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-      "report_type_id": "2",
-    	"entities": "2",
-      "regular": false,
-      "schedule": "{\"a\":1}",
-      "filters": "{\"a\":333333}",
-    	"description":"21",
-      "not_formal_report_settings": "{\"a\":1}",
-    	"report_task_formats": [1]
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -29,7 +19,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1651672660085
+metaSortKey: -1651844049355
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

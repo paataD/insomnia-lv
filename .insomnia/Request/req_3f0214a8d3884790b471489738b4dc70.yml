@@ -1,7 +1,7 @@
 _id: req_3f0214a8d3884790b471489738b4dc70
 type: Request
 parentId: fld_d71d472982cf4b6eb3027246563d6850
-modified: 1651737198851
+modified: 1652867215410
 created: 1651405873594
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
   '', 0 %}
@@ -27,7 +27,7 @@ body:
     						"metric_type_id": 7,
     						"name": "234234",
     						"criteria_type_id": 136,
-    						"id": 121,
+    					
     						"metric_templates_id": [
     							1
     						],

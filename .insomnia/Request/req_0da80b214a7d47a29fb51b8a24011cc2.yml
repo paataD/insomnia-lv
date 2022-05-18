@@ -1,0 +1,41 @@
+_id: req_0da80b214a7d47a29fb51b8a24011cc2
+type: Request
+parentId: fld_832fc25bab134841b30daeab5367fe46
+modified: 1652860613540
+created: 1652508799603
+url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
+  '', 0 %}
+name: Report для Евгения (показ)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"report_type_id": "1",
+    	"entities":"1",
+    	"regular": false,
+    	"schedule":"{\"a\":333333}",
+    	"description":"ddd",
+    	"filters":"{\"a\":333333}",
+    	"not_formal_report_settings":"{\"a\":333333}",
+    	
+    	"report_task_formats":[1 ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ee0f27324007463eb0a355e8fda30244
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ _.bearer }}"
+metaSortKey: -1652508799603
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

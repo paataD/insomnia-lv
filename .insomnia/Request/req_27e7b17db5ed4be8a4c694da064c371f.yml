@@ -1,26 +1,16 @@
-_id: req_ab84a8922cf34a0a86ab3c5cad87a10e
+_id: req_27e7b17db5ed4be8a4c694da064c371f
 type: Request
-parentId: fld_d759c038d2204a04b56826f997c72e1f
-modified: 1652861061630
-created: 1651672660085
+parentId: fld_f36deabb7de74b4ebe5f517d58b87785
+modified: 1652877715766
+created: 1652445990475
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
   '', 0 %}
-name: reports
+name: device-schemes
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-      "report_type_id": "2",
-    	"entities": "2",
-      "regular": false,
-      "schedule": "{\"a\":1}",
-      "filters": "{\"a\":333333}",
-    	"description":"21",
-      "not_formal_report_settings": "{\"a\":1}",
-    	"report_task_formats": [1]
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -29,7 +19,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1651672660085
+metaSortKey: -1651666089706.5625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,10 @@
+_id: fld_539ee10ecc1342df916c92f7234754ff
+type: RequestGroup
+parentId: fld_2b1d94730b0e4f69a0df12db34c2c6a0
+modified: 1652796703068
+created: 1652796703068
+name: netflow-types
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1652796703068

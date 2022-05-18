@@ -1,26 +1,16 @@
-_id: req_ab84a8922cf34a0a86ab3c5cad87a10e
+_id: req_4be8859e5a784f2dbcffdf159f8d76a0
 type: Request
-parentId: fld_d759c038d2204a04b56826f997c72e1f
-modified: 1652861061630
-created: 1651672660085
+parentId: fld_507858c29c184208919082236646135a
+modified: 1652861168588
+created: 1652276124557
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
-  '', 0 %}
-name: reports
+  '', 0 %}/1
+name: graphic
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-      "report_type_id": "2",
-    	"entities": "2",
-      "regular": false,
-      "schedule": "{\"a\":1}",
-      "filters": "{\"a\":333333}",
-    	"description":"21",
-      "not_formal_report_settings": "{\"a\":1}",
-    	"report_task_formats": [1]
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -29,7 +19,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1651672660085
+metaSortKey: -1651666527685.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

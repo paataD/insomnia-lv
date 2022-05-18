@@ -1,10 +1,10 @@
 _id: req_fc5c2f84c8604c0e93bf96cbf1eefe3e
 type: Request
 parentId: fld_0b4084373eee49c298eb5bf42353416b
-modified: 1651665770345
+modified: 1652860352171
 created: 1651665770345
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
-  '', 0 %}/1
+  '', 0 %}/10
 name: service-types
 description: ""
 method: POST
@@ -13,39 +13,41 @@ body:
   text: |-
     {
     	"name": "Тестовая услуга",
-    		"subject_types": [
-    			1
-    		],
-    		"criteria_types": [
-    			{
-    				"name": "Доступносссть сети",
-    				"description": null,
-    				"service_type_id": 158,
-    				"id": 136,
-    				"criteria_metric_types": [
-    					{
-    						"metric_type_id": 7,
-    						"name": "234234",
-    						"criteria_type_id": 136,
-    						"id": 121,
-    						"metric_templates_id": [
-    							1
-    						],
-    						"criteria_rule_types": [
-    							{
-    								"condition": "ук2332",
-    								"rule_path_behavior_id": 2,
-    								"rule_react_type_value_id": 6,
-    								"subject_type_id": 1,
-    								"weight": 3,
-    								"criteria_metric_type_id": 121
-    							}
-    						]
-    					}
-    				]
-    			}
-    		]
-    	}
+    	"id": 10,
+    	"subject_types": [
+    		1
+    	],
+    	"criteria_types": [
+    		{
+    			"name": "Доступносdссть сети",
+    			"description": null,
+    			"service_type_id": 10,
+    			"id": 4,
+    			"criteria_metric_types": [
+    				{
+    					"metric_type_id": 7,
+    					"name": "234234",
+    					"criteria_type_id": 4,
+    					"id": 4,
+    					"metric_templates": [
+    						1
+    					],
+    					"criteria_rule_types": [
+    						{
+    							"condition": "ук2332",
+    							"rule_path_behavior_id": 2,
+    							"rule_react_type_value_id": 6,
+    							"subject_type_id": 1,
+    							"weight": 3,
+    							"criteria_metric_type_id": 4,
+    							"id": 1
+    						}
+    					]
+    				}
+    			]
+    		}
+    	]
+    }
 parameters:
   - id: pair_9f69914a222e4526b5a6ada95d102939
     name: XDEBUG_SESSION_START
