@@ -1,10 +1,10 @@
 _id: req_7d2893270d314fb5b63a861d8f2913a1
 type: Request
 parentId: fld_f36deabb7de74b4ebe5f517d58b87785
-modified: 1652446292092
+modified: 1653049782890
 created: 1652445870092
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
-  '', 0 %}/
+  '', 0 %}
 name: device-schemes
 description: ""
 method: POST

@@ -1,7 +1,7 @@
 _id: req_3f0214a8d3884790b471489738b4dc70
 type: Request
 parentId: fld_d71d472982cf4b6eb3027246563d6850
-modified: 1652867215410
+modified: 1653066521812
 created: 1651405873594
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
   '', 0 %}
@@ -20,25 +20,24 @@ body:
     			{
     				"name": "Доступносссть сети",
     				"description": null,
-    				"service_type_id": 158,
-    				"id": 136,
+    				"service_type_id": 1,
     				"criteria_metric_types": [
     					{
     						"metric_type_id": 7,
     						"name": "234234",
-    						"criteria_type_id": 136,
+    						"criteria_type_id": 21,
     					
     						"metric_templates_id": [
     							1
     						],
     						"criteria_rule_types": [
     							{
-    								"condition": "ук2332",
+    								"condition": "{\"a\":333333}",
     								"rule_path_behavior_id": 2,
-    								"rule_react_type_value_id": 6,
+    								"rule_react_type_value_id": 1,
     								"subject_type_id": 1,
     								"weight": 3,
-    								"criteria_metric_type_id": 121
+    								"rule_target_id":1
     							}
     						]
     					}

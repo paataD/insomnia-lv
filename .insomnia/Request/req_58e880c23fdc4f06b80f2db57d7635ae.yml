@@ -1,10 +1,10 @@
 _id: req_58e880c23fdc4f06b80f2db57d7635ae
 type: Request
 parentId: fld_0b4084373eee49c298eb5bf42353416b
-modified: 1651665770338
+modified: 1653066394827
 created: 1651665770338
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
-  '', 0 %}
+  '', 0 %}/2
 name: service-types
 description: ""
 method: GET

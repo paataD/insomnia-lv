@@ -1,10 +1,10 @@
 _id: req_87c928d5f3e644e7be0a8cdb36969ecd
 type: Request
 parentId: fld_d71d472982cf4b6eb3027246563d6850
-modified: 1652867216266
+modified: 1652967761662
 created: 1651406481841
 url: http://{{ _.base_url }}:{{ _.port }}/{{ _.prefix }}/{% request 'folder',
-  '', 0 %}/3
+  '', 0 %}/67
 name: service-types
 description: ""
 method: POST
@@ -13,46 +13,70 @@ body:
   text: |-
     {
     	"name": "Тестовая услуга",
-    	"id": 3,
+    	"id": 67,
     	"subject_types": [
     		1
     	],
     	"criteria_types": [
     		{
-    			"name": "Доступноdсddссть сеdи",
+    			"name": "Доступнос333ссть сети",
     			"description": null,
-    			"service_type_id": 3,
-    			"id": 2,
+    			"service_type_id": 67
+    		},
+    		{
+    			"name": "Доступносссть сети",
+    			"description": null,
+    			"service_type_id": 67,
+    			"id": 52,
     			"criteria_metric_types": [
     				{
     					"metric_type_id": 7,
-    					"name": "2342ewedddddddddde3e4",
-    					"criteria_type_id": 2,
-    					"id": 2,
+    					"name": "234234",
+    					"criteria_type_id": 52,
+    					"id": 46,
     					"metric_templates": [
     						1
     					],
     					"criteria_rule_types": [
     						{
-    							"condition": "ук2ddd332",
+    							"condition": "{\"a\":30000000033333}",
     							"rule_path_behavior_id": 2,
-    							"rule_react_type_value_id": 6,
+    							"rule_react_type_value_id": 1,
     							"subject_type_id": 1,
     							"weight": 3,
-    							"criteria_metric_type_id": 2,
-    							"id": 1
+    							"rule_target_id": 1,
+    							"criteria_metric_type_id": 46,
+    							"id": 40
     						},
     						{
-    							"condition": "ук2dddddssddd332",
+    							"condition": "{\"a\":ffff}",
     							"rule_path_behavior_id": 2,
-    							"rule_react_type_value_id": 6,
+    							"rule_react_type_value_id": 1,
     							"subject_type_id": 1,
     							"weight": 3,
-    							"criteria_metric_type_id": 2
-    			
+    							"rule_target_id": 1,
+    							"criteria_metric_type_id": 46
+    						},
+    						{
+    							"condition": "{\"a\":f343534fff}",
+    							"rule_path_behavior_id": 2,
+    							"rule_react_type_value_id": 1,
+    							"subject_type_id": 1,
+    							"weight": 3,
+    							"rule_target_id": 1,
+    							"criteria_metric_type_id": 46
     						}
     					]
-    				}
+    				},
+    						{
+    					"metric_type_id": 7,
+    					"name": "ewrwerew",
+    					"criteria_type_id": 52,
+    		
+    					"metric_templates": [
+    						1
+    					]
+    					}
     			]
     		}
     	]
